@@ -5,7 +5,7 @@ cursor = db.cursor()  # Cria um objeto cursor para interagir com o banco de dado
 
 # Atualize os dados na tabela 'user'
 cursor.execute('''UPDATE user
-                  SET name = "Joao Gabriel", birthdate = "1996-06-24"
+                  SET name = "JG", birthdate = "0000-00-00"
                   WHERE id = 1
                   ''')
 
