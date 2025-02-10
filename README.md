@@ -21,6 +21,4 @@ Certifique-se de ter o Python instalado em sua máquina. Recomendamos o uso de u
 git clone https://github.com/jgafarias/DB-Python.git
 cd DB-Python
 
-
-
-
+## Pré-requisitos
