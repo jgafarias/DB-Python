@@ -1,8 +1,6 @@
-import sqlite3  # Importa o módulo sqlite3 para trabalhar com bancos de dados SQLite
+from Connect_DB import connect  # Importa a função de conexão do módulo Connect_DB
 
-# Cria uma conexão com o banco de dados 'Test.db' localizado no diretório 'DB-Python'
-db = sqlite3.connect('DB-Python/Test.db')
-
+db = connect()  # Estabelece a conexão usando a função do módulo Connect_DB
 cursor = db.cursor()  # Cria um objeto cursor para interagir com o banco de dados
 
 # Atualize os dados na tabela 'user'
