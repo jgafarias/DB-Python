@@ -1,24 +1,31 @@
 # DB-Python
 
-## Descrição
-
-Este repositório contém scripts em Python para interagir com bancos de dados. Inclui exemplos de conexão, consulta, inserção, atualização e exclusão de dados utilizando diferentes bibliotecas de banco de dados.
+DB-Python é uma biblioteca Python que facilita a interação com bancos de dados. Este projeto fornece uma interface simples e intuitiva para realizar operações comuns de banco de dados, como criar, ler, atualizar e excluir registros.
 
 ## Funcionalidades
 
-- Conexão com bancos de dados (MySQL, PostgreSQL, SQLite, etc.)
+- Conexão com diferentes tipos de bancos de dados (SQLite, MySQL, PostgreSQL, etc.)
 - Execução de consultas SQL
-- Inserção de dados
-- Atualização de dados
-- Exclusão de dados
-- Transações e tratamento de erros
+- Manipulação de dados com métodos simples
+- Suporte a transações
+- Tratamento de erros e exceções
 
-## Pré-requisitos
+## Instalação
 
-Certifique-se de ter o Python instalado em sua máquina. Recomendamos o uso de um ambiente virtual para gerenciar as dependências do projeto.
+Para instalar a biblioteca, você pode clonar o repositório e instalar as dependências necessárias:
 
 ```bash
 git clone https://github.com/jgafarias/DB-Python.git
 cd DB-Python
+```
 
-## Pré-requisitos
+## Licença
+
+Este projeto está licenciado sob a [MIT License](LICENSE). Veja o arquivo LICENSE para mais detalhes.
+
+## Contato
+
+Para mais informações, entre em contato com o autor:
+
+- **Nome:** João Gabriel
+- **GitHub:** [jgafarias](https://github.com/jgafarias)
