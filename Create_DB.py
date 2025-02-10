@@ -1,15 +1,17 @@
-import sqlite3
+import sqlite3  # Importa o módulo sqlite3 para trabalhar com bancos de dados SQLite
 
-# Conecte ao banco de dados (ou crie um novo banco de dados)
+  # Cria uma conexão com o banco de dados 'Test.db' localizado no diretório 'DB-Python'
 db = sqlite3.connect('DB-Python/Test.db')
 
-cursor = db.cursor()
-cursor = db.execute('''CREATE TABLE user (
-                            id INTEGER PRIMARY KEY NOT NULL,
-                            name VARCHAR(100) NOT NULL,
-                            birthdate DATE NOT NULL
-                    )''')
+cursor = db.cursor()  # Cria um objeto cursor para interagir com o banco de dados
 
-db.commit()
+# Cria a tabela 'user' com as colunas 'id', 'name' e 'birthdate'
+cursor.execute('''CREATE TABLE user (
+                      id INTEGER PRIMARY KEY NOT NULL, 
+                      name VARCHAR(100) NOT NULL,  
+                      birthdate DATE NOT NULL  
+                  )''')
 
-print('Tabela criada com sucesso!')
+db.commit()  # Confirma a transação no banco de dados, criando a tabela
+
+print('Tabela criada com sucesso!')  # Imprime uma mensagem indicando que a tabela foi criada com sucesso
