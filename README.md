@@ -19,10 +19,9 @@ git clone https://github.com/jgafarias/DB-Python.git
 cd DB-Python
 ```
 
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE). Veja o arquivo LICENSE para mais detalhes.
-
+## Requisitos
+- Python 3.x
+- 
 ## Contato
 
 Para mais informações, entre em contato com o autor:
